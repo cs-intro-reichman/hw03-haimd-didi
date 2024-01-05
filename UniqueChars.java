@@ -14,7 +14,7 @@ public class UniqueChars {
         String str = "";
         // Replace the following statement with your code
         for(int i=0;i<s.length();i++){
-            if(str.indexOf(s.charAt(i))==-1){
+            if(str.indexOf(s.charAt(i))==-1||s.charAt(i)==' '){
                 str += s.charAt(i);
             }
         }
